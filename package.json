@@ -1,0 +1,37 @@
+{
+  "name": "package-test",
+  "author": "brucejo75",
+  "description": "test package loading issue",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "preinstall": "node scripts/build-deps.js"
+  },
+  "dependencies": {
+    "readable-stream": "git+https://github.com/meteor/readable-stream.git",
+    "vm-browserify": "github:brucejo75/vm-browserify#FAST"
+  },
+  "bundledDependencies": [
+    "readable-stream",
+    "vm-browserify"
+  ],
+  "devDependencies": {
+    "rimraf": "^2.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brucejo75/package-test.git"
+  },
+  "keywords": [
+    "stubs",
+    "shims",
+    "node",
+    "builtins",
+    "core",
+    "modules",
+    "browserify",
+    "webpack",
+    "meteor"
+  ],
+}
