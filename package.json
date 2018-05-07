@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "readable-stream": "git+https://github.com/meteor/readable-stream.git",
-    "vm-browserify": "github:brucejo75/vm-browserify#FAST"
+    "vm-browserify": "vm-browserify"
   },
   "bundledDependencies": [
     "readable-stream",
